@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" description="webpage for contact information" keywords="chess, contact, email, whatsapp" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="imgs/favicon-32x32.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img id="logo" src="imgs/chess_logo.png" alt="chess logo" /></a>
+            <a class="nav-btn" href="index.html">Home</a>
+            <a class="nav-btn" href="ChessStrategy.html">Chess Strategy</a>
+            <a class="nav-btn" href="ChessChampions.html">Chess Champions</a>
+            <a class="nav-btn" href="MoreOnChess.html">More on Chess</a>
+            <a class="nav-btn" href="contact.html">Contact</a>
+        </nav>
+        <h1 class="heading">College Project on Chess</h1>
+    </header>
+    <main>
+        <h2 class="chessChampTitle">Best way to get in Contact with Us!</h2>
+        <ol id="contactList">
+            <li class="contactListText">Call</li>
+            <li class="contactListText">Text</li>
+            <li class="contactListText">Email</li>
+            <li class="contactListText">Instagram</li>
+            <li class="contactListText">Snapchat</li>
+            <li class="contactListText">Discord</li>
+            <li class="contactListText">Post</li>
+            <li class="contactListText">Whatsapp</li>
+        </ol>
+        <section class="formSection">
+            <form action="http://foo.com" mehtod="post">
+                <h3 class="formText">Please enter the following information:</h3>
+                <label class="formText" for="first_name">First name:<span class="required">*</span></label>
+                <input type="text" name="first_name" id="first_name" autofocus required /><br />
+
+                <label class="formText" for="last_name">Last name:<span class="required">*</span></label>
+                <input type="text" name="last_name" id="last_name" autofocus required /><br />
+
+                <label class="formText" for="email">Email:<span class="required">*</span></label>
+                <input type="email" name="email" id="email" required placeholder="johndoe@example.com" /><br />
+
+                <label class="formText" for="gender">Gender:<span class="required">*</span></label>
+                <input class="formText" type="radio" name="gender" id="gender" value="male" /> <span class="formText">Male</span>
+                <input class="formText" type="radio" name="gender" id="gender" value="female" /> <span class="formText">Female</span>
+                <input class="formText" type="radio" name="gender" id="gender" value="other" checked /> <span class="formText">Other</span>
+
+                <section>
+                    <label class="formText" for="internet">How did you hear about us?:</label>
+                </section>
+                <fieldset>
+
+                    <input class="formText" type="checkbox" id="internet" name="internet" value="internet" checked /><span class="formText">Internet</span><br />
+                    <input class="formText" type="checkbox" id="hear" name="paper" value="paper" /> <span class="formText">Newspaper</span> <br />
+                    <input class="formText" type="checkbox" id="hear" name="friend" value="friend" /> <span class="formText">Friend</span><br />
+                    <input class="formText" type="checkbox" id="hear" name="paper" value="Add" /> <span class="formText">Others</span><br />
+                </fieldset>
+                <br />
+                <label class="formText" for="message">Query :</label>
+
+                <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-ng-maxlength="200"></textarea><br />
+                <input type="submit" name="submit" id="button" value="Submit" />
+                <input type="reset" name="reset" id="reset" />
+            </form>
+            <p style="margin-left: 138px"><span class="required">*</span><em class="formText"> indicates a required field</em></p>
+        </section>
+    </main>
+    <footer>
+        <a class="footer-btn" href="index.html">Home</a>
+        <a class="footer-btn" href="ChessStrategy.html">Chess Strategy</a>
+        <a class="footer-btn" href="ChessChampions.html">Chess Champions</a>
+        <a class="footer-btn" href="MoreOnChess.html">More on Chess</a>
+        <a class="footer-btn" href="contact.html" style="width: 200px; background-color: darkslateblue; border-radius: 15px;">Contact</a>
+        <p class="footer-text">
+            &copy; Copyright 2022 CollegeProject.chess.ie
+        </p>
+    </footer>
+
+</body>
+</html>

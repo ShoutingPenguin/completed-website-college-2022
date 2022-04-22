@@ -1,0 +1,332 @@
+﻿body {
+    background-color: darkgreen;
+    font-family: fantasy;
+    margin: 0;
+}
+/*FOOTER SECTION FOR EACH WEBPAGE*/
+.footer-btn {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 28%;
+    font-size: 20px;
+    padding: 20px;
+}
+footer {
+    margin-top: 150px;
+    padding: 20px;
+    height: 100px;
+    width: 95%;
+    margin: auto;
+    background-color: darkslategrey;
+}
+.footer-text {
+    
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+}
+/*INDEX.HTML*/
+header {
+    background-image: url("imgs/chess-img.jpg");
+    background-attachment: fixed;
+    height: 500px;
+}
+#logo {
+    position: absolute;
+    left: 1%;
+    border-radius: 15px;
+    width: 200px;
+}
+#logo:hover {
+    opacity: 0.5;
+}
+.heading {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    height: 550px;
+    position: relative;
+    top: 20px;
+}
+.nav-btn {
+    border-radius: 20px;
+    width: 100px;
+    height: 75px;
+    background-color: darkslategray;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+    left: 18%;
+    top: 20px;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+}
+.nav-btn:hover {
+    background-color: darkslateblue;
+}
+.youtube-videos {
+    margin: 20px;
+    position: relative;
+    left: 5%;
+}
+.youtube-links {
+    column-count: 3;
+    column-gap: 40px;
+    padding: 20px;
+}
+.youtube-ref {
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+    margin: 0;
+    margin-left: 40px;
+}
+.text {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+/*CHESS CHAMPIONS.HTML*/
+.ChessChampColumns {
+    column-count: 3;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: white;
+    column-gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: black;
+    padding: 20px;
+}
+#hikaru-img {
+    width: 200px;
+    margin-left: 25%;
+    margin-right: 300px;
+}
+#magnus-img {
+    width: 200px;
+    margin-left: 25%;
+    margin-right: 300px;
+}
+#bobby-img {
+    width: 200px;
+    margin-left: 25%;
+    margin-right: 300px;
+}
+.chessChampTitle {
+    margin: 0;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.chessChampColumnTitle {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+.columnText {
+    color: white;
+    font-family: Arial;
+    list-style: square;
+}
+.columnText1 {
+    color: white;
+    font-family: Arial;
+    list-style: circle;
+}
+/*CHESS STRATEGIES*/
+.openings-heading {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.chess-strat-imgs {
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: solid 3px white;
+    margin-bottom: 20px;
+}
+.chess-strat-text {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial;
+    width: 45%;
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.chess-strat-section {
+    border-radius: 10px;
+    border: solid white 2px;
+    padding: 20px;
+    margin: 20px;
+    background-color: darkslategrey;
+}
+.chess-strat-section-heading {
+    color: white;
+    font-size: 30px;
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+/*MORE ON CHESS*/
+#googleMaps {
+    margin: 20px;
+    float: left;
+    margin-top: 100px;
+}
+.moreOnChessText {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial;
+    width: 45%;
+    float: right;
+    margin: 0;
+    margin-right: 55px;
+    margin-bottom: 20px;
+}
+#moreOnChessHeading {
+    color: white;
+    font-size: 35px;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.historyChessHeading {
+    color: white;
+    font-size: 35px;
+    margin: 20px;
+}
+.moreOnChessText2 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial;
+    margin: 20px;
+    margin-right: 55px;
+    margin-bottom: 20px;
+}
+#moreOnChessImageRef {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+    font-family: Arial;
+    background-color: black;
+    padding: 10px;
+    border-radius: 15px;
+}
+#moreOnChessImageRef:hover {
+    color: darkslateblue;
+}
+.ref {
+    text-align: center;
+}
+#chess-data {
+    font-size: 26px;
+    text-align: center;
+    color: white;
+}
+table {
+    font-family: Arial;
+    background-color: black;
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    color: white;
+    border: 2px solid white;
+    border-right: none;
+}
+th {
+    font-size: 25px;
+    border-right: 2px solid white;
+}
+td {
+    text-align: center;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    
+}
+/*CONTACT*/
+.required {
+    font-weight: bold;
+    color: red;
+}
+
+.input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+
+input[type="radio"] {
+    width: 10px;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+}
+
+.formSection {
+    background-color: black;
+    
+    border-radius: 15px;
+    padding: 20px;
+    padding-bottom: 100px;
+    margin: 20px;
+    font-family: Arial;
+}
+
+#button {
+    margin-left: 138px;
+}
+
+#button, #reset {
+    margin-top: .5em;
+    width: 8em;
+    background-color: darkslategray;
+    color: white;
+    border: 2px solid black;
+}
+
+p {
+    font-weight: bold;
+}
+.formText {
+    color: white;
+}
+#contactList {
+    background-color: black;
+    
+    margin: 20px;
+    border-radius: 15px;
+}
+ol {
+    padding: 20px;
+}
+.contactListText {
+    color: white;
+    padding-left: 20px;
+    font-family: Arial;
+
+}
